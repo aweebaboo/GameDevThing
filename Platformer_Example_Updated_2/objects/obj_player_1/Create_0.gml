@@ -22,7 +22,7 @@ image_speed=1
 
 is_player = true
 
-jump_animation = spr_snowman_jump
+jump_animation = spr_alucard_jump
 
 pressed_right = false
 pressed_left = false

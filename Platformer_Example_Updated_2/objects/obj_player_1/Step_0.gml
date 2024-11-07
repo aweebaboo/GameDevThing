@@ -36,7 +36,7 @@ if pressed_left{                            // if pressing A..
     }
     image_xscale = -1                                    //flip the sprite to face left
     if grounded{
-        sprite_index= spr_snowman_run
+        sprite_index= spr_alucard_walking
     }
 }else if pressed_right{                     //otherwise if D same deal in other direction...
         if (hspd < hspd_max){
@@ -46,13 +46,13 @@ if pressed_left{                            // if pressing A..
         }
     image_xscale = 1                                    //flip the sprite to face right
     if grounded{                                        //only change to walking sprite if on the ground
-        sprite_index= spr_snowman_run
+        sprite_index= spr_alucard_walking
     }
 }else{        
     //if not pressing either direction..
     if grounded{
         hspd = lerp(hspd, 0, .05)                        //..and on the ground.. slow me
-        sprite_index= spr_snowman_idle                    //..show idle animation!
+        sprite_index= spr_alucard_idle                    //..show idle animation!
     }
 }
 
@@ -85,7 +85,7 @@ if grounded {                            // if player is touching the ground or 
     if vspd > 0{                        // use jump sprite for jump, fall sprite for fall!
         sprite_index= jump_animation
     }else{
-        sprite_index= spr_snowman_fall
+        sprite_index= spr_alucard_jump
     }
 }
 
