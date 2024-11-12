@@ -113,7 +113,7 @@ and jumps_spent < num_jump {            //check for jump key only if we have jum
 MoveCollide() // < - wow, big script!
 
 //are we on the ground?
-if(place_meeting(x, y+1, obj_platform) or place_meeting(x, y+1, obj_reddoor)){
+if(place_meeting(x, y+1, obj_platform) or place_meeting(x, y+1, obj_reddoor)) or place_meeting(x, y+1, obj_reddoorside)){
     alarm[2] = coyote_time                // while on a platform, hold this timer at maximum
     grounded = true
     jumps_spent = 0
