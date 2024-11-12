@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_rondo_stage_clear",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":6.300794,
+  "name":"snd_rondo_stage_clear",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_rondo_stage_clear.wav",
+  "type":0,
+  "volume":0.48,
+}
