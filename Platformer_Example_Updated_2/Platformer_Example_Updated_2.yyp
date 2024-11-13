@@ -78,6 +78,7 @@
     {"id":{"name":"spr_alucard_jump","path":"sprites/spr_alucard_jump/spr_alucard_jump.yy",},},
     {"id":{"name":"spr_alucard_walking","path":"sprites/spr_alucard_walking/spr_alucard_walking.yy",},},
     {"id":{"name":"spr_checkpoint","path":"sprites/spr_checkpoint/spr_checkpoint.yy",},},
+    {"id":{"name":"spr_checkpointvisual","path":"sprites/spr_checkpointvisual/spr_checkpointvisual.yy",},},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},
     {"id":{"name":"spr_fire_enemy","path":"sprites/spr_fire_enemy/spr_fire_enemy.yy",},},
     {"id":{"name":"spr_generalspike","path":"sprites/spr_generalspike/spr_generalspike.yy",},},

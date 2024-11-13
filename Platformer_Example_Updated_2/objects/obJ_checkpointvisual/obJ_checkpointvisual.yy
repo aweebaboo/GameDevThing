@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_checkpointvisual",
+    "path":"sprites/spr_checkpointvisual/spr_checkpointvisual.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
