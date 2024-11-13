@@ -38,6 +38,7 @@
   "name":"Platformer_Example_Updated_2",
   "resources":[
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},},
+    {"id":{"name":"obj_coin_1","path":"objects/obj_coin_1/obj_coin_1.yy",},},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"obj_collidable","path":"objects/obj_collidable/obj_collidable.yy",},},
     {"id":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},},
