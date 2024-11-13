@@ -2,3 +2,4 @@
 // You can write your code in this editor
 
 p2score += 1
+instance_destroy()
