@@ -59,6 +59,7 @@ if pressed_left{                            // if pressing A..
 
 #endregion
 }else{
+	hspd = 0
 	alive_counter--;
 	sprite_index = spr_albus_death;
 	is_alive = false;
