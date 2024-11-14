@@ -7,6 +7,8 @@ jump_hold = .32 * room_speed	// time you can hold for a higher jump
 num_jump = 1			// number of jumps before needing to touch ground
 jump_pressed_timer = 30	// number of frames to save the "jump" input, aka "input caching"
 coyote_time = 2			// number of frames before you fall when stepping off platform
+is_alive = true;
+alive_counter = 50;
 
 #region Do not change these.
 hspd = 0

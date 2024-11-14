@@ -1,3 +1,4 @@
+if is_alive{
 #region base movement and animation related to keypress
 
 vspd += grav_amt                                        //apply gravity
@@ -56,9 +57,18 @@ if pressed_left{                            // if pressing A..
     }
 }
 
-
-
 #endregion
+}else{
+	alive_counter--;
+	sprite_index = spr_albus_death;
+	is_alive = false;
+	if alive_counter <= 0{
+		is_alive = true; 
+		alive_counter = 50;
+		x = respawnx
+		y = respawny
+	}
+}
 
 #region jumping and falling
 

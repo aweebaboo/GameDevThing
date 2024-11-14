@@ -4,5 +4,6 @@
 lastscored = "p1"
 p1score += 5
 lastroom = room
+audio_pause_sound(snd_bgm);
 audio_play_sound(snd_rondo_stage_clear,1,0);
 room_goto(rm_intermission)
