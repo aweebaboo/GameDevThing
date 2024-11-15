@@ -101,6 +101,7 @@
     {"id":{"name":"spr_snowman_jump","path":"sprites/spr_snowman_jump/spr_snowman_jump.yy",},},
     {"id":{"name":"spr_snowman_melt","path":"sprites/spr_snowman_melt/spr_snowman_melt.yy",},},
     {"id":{"name":"spr_snowman_run","path":"sprites/spr_snowman_run/spr_snowman_run.yy",},},
+    {"id":{"name":"spr_start_bg","path":"sprites/spr_start_bg/spr_start_bg.yy",},},
     {"id":{"name":"castle_tiles","path":"tilesets/castle_tiles/castle_tiles.yy",},},
   ],
   "resourceType":"GMProject",
